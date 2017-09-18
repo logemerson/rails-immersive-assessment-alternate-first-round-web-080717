@@ -1,0 +1,5 @@
+<h3> Sweets Index </h3>
+<%= @sweets.each do |s| %>
+  <h3><%= link_to s.name, sweet_path(v) %></h3>
+
+<% end %>

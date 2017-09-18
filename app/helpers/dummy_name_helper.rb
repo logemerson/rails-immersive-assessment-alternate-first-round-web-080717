@@ -1,0 +1,2 @@
+module DummyNameHelper
+end
